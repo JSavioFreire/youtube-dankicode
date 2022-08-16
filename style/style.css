@@ -1,0 +1,24 @@
+@charset "UTF-8";
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    height: 130px;
+    border-bottom: 2px solid gray;
+    vertical-align: top;
+}
+header #logo{
+    width: 170px;
+    margin: 20px 40px;
+    display: inline-block;
+}
+header #divbuscador{
+    display: inline-block;
+    margin: 50px;
+
+}
+#divbuscador #busca{
+    width: 600px;
+    height: 30px;
+}
