@@ -2,44 +2,107 @@
 *{
     padding: 0;
     margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    overflow: hidden;
 }
+
+        /*Header*/
+
 header{
-    height: 130px;
-    border-bottom: 2px solid gray;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    padding: 10px 0 0 20px;
+    border-bottom: 1px solid gray;
 }
-#divlogo{
-    display: inline-block;
-    max-width: 200px;
-    height: 130px;
-    text-align: center;
-    box-sizing: border-box;
-    
-    background-color: gray;
+header #divlogo{
+    width: 20%;
+    margin-right: -50px;
 }
 #divlogo #logo{
-    margin-top: 30px;
-    width: 80%;
+    width: 60%;
+}
+header #divsearch{
+    width: 60%;
+    display: flex;
+    align-items: center;
+} 
+#divsearch #pesquisa{
+    width: 90%;
+    height: 40px;
+    padding-left: 10px;
+}
+#divsearch #pesquisar{
+    width: 6%;
+    height: 40px;
+
+}
+#pesquisar #btimg{
+    width: 60%;
+}
+#extras img, p{
+    margin: 0 0 0 20px;
+}
+#extras p{
+    display: inline-block;
 }
 
-#divbuscador{
-    display: inline-block;
-    height: 130px;
-    width: 800px;
+        /*Miniheader*/
+
+#miniheader{
+    height: 60px;
+    border-bottom: 1px solid gray;
+    align-items: center;
+    padding: 15px 50px;
     box-sizing: border-box;
-    background-color: aquamarine;
-    position: absolute;
-    top: 0;
-
-
 }
-#divbuscador #sobusca{
+#miniheader div{
     display: inline-block;
-    position: absolute;
-    width: 700px;
-    top: 50px;
-    left: 30px;
-}
-#divbuscador #busca{
-    width: 80%;
+    background-color: rgb(225, 225, 225);
+    border: 1px solid rgb(192, 192, 192);
+    border-radius: 25px;
+    margin-right: 20px;
     height: 30px;
+    padding: 3px 10px 0 10px ;
+    box-sizing: border-box;
+    
+}
+#miniheader a{
+    text-decoration: none;
+    color: black;
+}
+#miniheader div:hover{
+    background-color: rgb(192, 192, 192) ;
+}
+#miniheader div:active{
+    background-color: gray;
+    color: white;
+}
+body #principal{
+    width: 90%;
+    background-color: rgb(245, 245, 245);
+    margin: 0 auto;
+    height: 100;
+    padding: 40px 10px;
+}
+#principal img{
+    width: 230px;
+    border: 2px solid black;
+    
+}
+#principal #centralizador{
+    margin: 0 auto;
+}
+#principal div{
+    display: inline-block;
+    margin-left: 30px;
+}
+#principal h2{
+    font-size: 19px;
+}
+#principal p{
+    font-size: 13px;
+    margin-bottom: 50px;
+
 }
