@@ -6,19 +6,40 @@
 header{
     height: 130px;
     border-bottom: 2px solid gray;
-    vertical-align: top;
 }
-header #logo{
-    width: 170px;
-    margin: 20px 40px;
+#divlogo{
     display: inline-block;
+    max-width: 200px;
+    height: 130px;
+    text-align: center;
+    box-sizing: border-box;
+    
+    background-color: gray;
 }
-header #divbuscador{
+#divlogo #logo{
+    margin-top: 30px;
+    width: 80%;
+}
+
+#divbuscador{
     display: inline-block;
-    margin: 50px;
+    height: 130px;
+    width: 800px;
+    box-sizing: border-box;
+    background-color: aquamarine;
+    position: absolute;
+    top: 0;
+
 
 }
+#divbuscador #sobusca{
+    display: inline-block;
+    position: absolute;
+    width: 700px;
+    top: 50px;
+    left: 30px;
+}
 #divbuscador #busca{
-    width: 600px;
+    width: 80%;
     height: 30px;
 }
